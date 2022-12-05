@@ -600,3 +600,9 @@
      font-style: normal;
      color: #f00;
  }
+ 
+ form input,
+ textarea {
+     width: 249px;
+     padding: 0 5px;
+ }
