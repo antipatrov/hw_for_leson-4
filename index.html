@@ -161,7 +161,56 @@
             </div>
         </div>
     </section>
+    <div class="container">
+        <div class="forms">
+            <div id="content">
 
+                <form action="#">
+                    <p><i>Пожалуйста, заполните форму регистрации пользователей. Обязательные поля помечены
+                        </i><em>*</em>
+                    </p>
+                    <fieldset>
+                        <legend>Контактная информация</legend>
+                        <label for="name">Фамилия <em>*</em></label>
+                        <input id="name" placeholder="Иванов" autofocus="" required="" pattern="\S+[А-яа-я]">
+                        <br>
+                        <label for="name">Имя <em>*</em></label>
+                        <input id="name" placeholder="Иван" required="" pattern="\S+[А-яа-я]">
+                        <br>
+                        <label for="name">Отчество</label>
+                        <input id="name" placeholder="Сидорович" pattern="\S+[А-яа-я]">
+                        <br>
+                        <label for="telephone">Телефон <em>*</em></label>
+                        <input id="telephone" placeholder="+7-903-955-55-55" required="">
+                        <br>
+                        <label for="email">Email <em>*</em></label>
+                        <input id="email" placeholder="email@server.com" required="" pattern="\S+@[a-z]+.[a-z]+">
+                        <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Персональная информация</legend>
+                        <label for="age">Возраст<em>*</em></label>
+                        <input id="age" type="number" required="" min="14" max="100">
+                        <br>
+                        <label for="gender">Пол</label>
+                        <select id="gender">
+                            <option value="female">Мужской</option>
+                            <option value="male">Женский</option>
+                        </select>
+                        <br>
+
+
+                    </fieldset>
+
+                    <p>
+                        <input type="submit" value="Отправить информацию">
+                    </p>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    </div>
     <footer class="container">
 
 
